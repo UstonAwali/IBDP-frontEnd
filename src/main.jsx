@@ -14,6 +14,7 @@ import PageLocation from './pages/lokasi'
 import PageSyarat from './pages/syarat'
 import PageInformasi from './pages/informasi'
 import AboutUs from './pages/about'
+import ProfilPage from './pages/profil'
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
 {
   path : "about",
   element: <AboutUs />
+},
+{
+  path : "profil",
+  element : <ProfilPage />
 }
 ])
 

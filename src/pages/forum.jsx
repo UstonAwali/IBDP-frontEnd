@@ -1,4 +1,5 @@
 import React from 'react'
+import FloatingButton from '../components/Elements/Button/FloatingButton'
 import CardForum from '../components/Fragments/CardForum'
 import Layout from '../components/Layouts/Layout'
 import user from '../assets/img/user.png'
@@ -65,6 +66,9 @@ const Forums = [{
 }
 ]
 const ForumPage = () => {
+  const handleFloatingButtonClick = () => {
+    // tujukan mau kemana
+  };
   return (
     <>
       <Layout>
@@ -90,6 +94,8 @@ const ForumPage = () => {
               </div>
               </div>
             ))}
+            <FloatingButton onClick={handleFloatingButtonClick} />
+
             </ div>
       </Layout>
     </>

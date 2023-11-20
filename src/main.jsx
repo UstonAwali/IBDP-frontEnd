@@ -12,6 +12,8 @@ import DonorPage from './pages/donor.jsx'
 import ForumPage from './pages/forum.jsx'
 import PageLocation from './pages/lokasi'
 import PageSyarat from './pages/syarat'
+import PageInformasi from './pages/informasi'
+import AboutUs from './pages/about'
 
 const router = createBrowserRouter([
   {
@@ -46,6 +48,14 @@ const router = createBrowserRouter([
 {
   path: "syarat",
   element: <PageSyarat />
+},
+{
+  path: "informasi",
+  element: <PageInformasi />
+},
+{
+  path : "about",
+  element: <AboutUs />
 }
 ])
 

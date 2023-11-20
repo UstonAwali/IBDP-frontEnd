@@ -97,7 +97,7 @@ const NavListMenu = () => {
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
-              Informasi
+              <a href={'informasi'}>Informasi</a>
               <ChevronDownIcon
                 strokeWidth={2.5}
                 className={`hidden h-3 w-3 transition-transform lg:block ${
